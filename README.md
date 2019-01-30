@@ -1,5 +1,5 @@
 # RL-playground---ddpg
-Playground for RL in Tensorflow
+Implementation of some common RL models in Tensorflow
 
 Own implementation of DDPG.
 
@@ -14,7 +14,4 @@ Launch the script in command line with flag:
 Quick notes around ddpg:
 DDPG takes advantage of Off-Policy learning for continuous control by alternatively:
 - learning Q values with a parametrized function by minimizing TD error
-- learning the actions maximizing these Q values with another parametrized function by gradient ascent over Q. 
-
-A beautiful website @see: https://spinningup.openai.com/en/latest/algorithms/ddpg.html#
-paper: https://arxiv.org/pdf/1509.02971.pdf
+- learning the actions maximizing these Q values with another parametrized function by gradient ascent over Q.
